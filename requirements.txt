@@ -1,3 +1,4 @@
+notebook
 pandas
-pandera
-scikit-learn
+pandera[io]
+
