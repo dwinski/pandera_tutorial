@@ -19,5 +19,5 @@ Pandera Tutorial for BD-STEP Fellows
 - sex: str
 - age: float
 - fare: float
-- sibsp: int
-- parch: int
+- sibsp: int (# of siblings/spouses this passenger has onboard)
+- parch: int (# of parents/children this passenger has onboard)
