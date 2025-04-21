@@ -1,15 +1,26 @@
-# pandera_tutorial
+# pandera_tutorial 
 Pandera Tutorial for BD-STEP Fellows
 
-## Need to install pandera[io] to read/write schemas
+## Python Packages Needed
+- notebook 
+  - jupyter notebook interface for interactive demo
+- pandas
+  - dataframe package
+- pandera
+  - data validation package
 
-- pip install pandera[io]
+### Need to install pandera[io] to read/write schemas
 
-## VS Code Extensions
+- If installing via requirements.txt fails can use pip manually as follows:
+        
+        pip install pandera[io]
 
-- Python
-- Jupyter (to allow interactive cells in .py files)
-- Notebook
+## VS Code Extensions Used in Demo
+
+- Need these extensions for VS Code if you want to run .ipynb in VS Code"
+    - Python
+    - Jupyter (to allow interactive cells in .py files)
+    - Notebook
 
 ## Data Types for schema for titanic dataset
 
@@ -19,5 +30,7 @@ Pandera Tutorial for BD-STEP Fellows
 - sex: str
 - age: float
 - fare: float
-- sibsp: int (# of siblings/spouses this passenger has onboard)
-- parch: int (# of parents/children this passenger has onboard)
+- sibsp: int 
+  - note that this is # of siblings/spouses this passenger has onboard
+- parch: int 
+  - note that this is # of parents/children this passenger has onboard
